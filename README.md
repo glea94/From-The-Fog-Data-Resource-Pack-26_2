@@ -46,18 +46,40 @@ The original pack is built for older Minecraft versions. This port:
 - Folds in some additional community content (extra language files, roadmap
   icons, sounds) from other community ports of the same pack, where it didn't
   conflict with the base pack
+- Also provides a repackaged `.jar` build (see Installation below) so it can
+  be dropped straight into the `mods` folder instead of manually splitting it
+  between `resourcepacks` and `datapacks`
 
 ## Installation
 
-1. Download the latest release from this repository.
+Two ways to install this pack — pick whichever is more convenient for you.
+
+### Option A — as a Fabric mod jar (recommended, easiest)
+
+A repackaged `.jar` build is also provided in this repository's releases. It
+contains the exact same `assets/` and `data/` content as the datapack/
+resourcepack below, just wrapped with a minimal `fabric.mod.json` so Fabric
+Loader mounts it automatically as a built-in resource pack + data pack.
+**There is no custom Java code in this jar** — it behaves identically to the
+datapack/resourcepack version.
+
+1. Download the latest `from-the-fog-*.jar` from this repository's releases.
+2. Drop it in your `mods` folder — **client and server**.
+3. That's it, no need to touch the `resourcepacks`/`datapacks` folders.
+
+### Option B — as a datapack + resourcepack
+
+1. Download the latest release (the `.zip`) from this repository.
 2. Put the pack **in both** your `resourcepacks` **and** `datapacks` folders
    (it's a combined pack, like the original).
-3. For the resourcepack, make sure it is loaded **below** (i.e. lower priority
-   than) any other high-resolution texture packs you use, to avoid texture
-   conflicts.
-4. Join a world. By default it takes a few in-game days before the main
-   events start — you can speed this up by building a Herobrine shrine
-   (mossy cobblestone or gold block center).
+3. Make sure it is loaded **below** (i.e. lower priority than) any other
+   high-resolution texture packs you use, to avoid texture conflicts.
+
+### After installing (either option)
+
+Join a world. By default it takes a few in-game days before the main events
+start — you can speed this up by building a Herobrine shrine (mossy
+cobblestone or gold block center).
 
 ## Links to the original project
 
