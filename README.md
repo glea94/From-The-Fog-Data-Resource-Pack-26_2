@@ -6,7 +6,8 @@
 
 This repository contains an **unofficial community port** of
 [**From The Fog**](https://github.com/LunarEclipseStudios/From-The-Fog) by
-**Lunar Eclipse Studios**, updated to run on **Minecraft 26.2**.
+**Lunar Eclipse Studios** (with contributions from **Bret06**), updated to run
+on **Minecraft 26.2**.
 
 From The Fog is a combined datapack + resourcepack that brings the legendary
 Herobrine to life in a spooky and immersive way, adding shrines, sightings,
@@ -93,7 +94,7 @@ The original **From The Fog** is licensed under
 [**CC BY-NC-SA 4.0**](https://github.com/LunarEclipseStudios/From-The-Fog/blob/main/LICENSE.md)
 (Attribution-NonCommercial-ShareAlike). In line with that license, this port:
 
-- credits Lunar Eclipse Studios as the original authors,
+- credits Lunar Eclipse Studios and Bret06 as the original authors,
 - is shared non-commercially,
 - and is released under the same CC BY-NC-SA 4.0 license.
 
